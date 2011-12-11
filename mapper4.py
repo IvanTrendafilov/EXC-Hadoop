@@ -70,6 +70,3 @@ def main(separator='\t'):
 if __name__ == "__main__":
 	main()
 
-'''
-/opt/hadoop/hadoop-0.20.2/bin/hadoop jar /opt/hadoop/hadoop-0.20.2/contrib/streaming/hadoop-0.20.2-streaming.jar -D mapred.reduce.tasks=0 -input /user/s0837795/data/features -output /user/s0837795/data/tmp2 -mapper mapper4.py -file mapper4.py -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00000#0.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00001#1.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00002#2.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00003#3.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00004#4.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00005#5.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00006#6.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00007#7.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00008#8.sym -cacheFile hdfs://hcrc1425n30.inf.ed.ac.uk/user/s0837795/data/labels/part-00009#9.sym
-'''
